@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en-us">    
+<!-- Kapow, pewpew -->
+    <head>
+        <title>WEDESIGN 1</title>
+    </head> 
+     <body style="background-color:lightcyan">
+        <h1>  <font> Portfolio</font></h1>
+        <table align="center" Border="3" bgcolor="fffff">
+        <tr>
+            <th><font size="6" color="blue">Home</font></th>
+            <th><font size="6" color="blue">Gallery1</font></th>
+            <th><font size="6" color="blue">Gallery2</font></th>
+            <th><font size="6" color="blue">Gallery3</font></th>
+            <!--Opens link-->
+            <th> 
+                <a href="https://www.youtube.com">link</a>
+            </th>
+            <!--Opens link in new tab using "BLANK"-->
+             <td> 
+                 
+                 <a href="https://www.youtube.com" Target="blank">
+                     <font Size="7" Color="Dark Red">link</font></a>
+                
+            </td>
+        </tr>
+        <tr>
+            <th>link1</th>
+            <td rowspan="2"><font size="6"> blast</font></td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th>link example 2</th>
+            <td>3</td>
+            <td>4</td>
+            <td>6</td>
+        </tr>
+    </table>
+        <h2><font>another body of text</font></h2>
+        <h3>  type is fun</h3>
+        <P align="center"><font>The <b>quick</b> brown fox jumped over the lazy dog</font></P>
+    </body>
+    
+    <table align="center">
+        <tr>
+            <td>1</td>
+            <td>12</td>
+            <td>123</td>
+            <td>124</td>
+            <td>126</td>
+            <td>127</td>
+            <td>128</td>
+            <td>129</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>12</td>
+            <td>123</td>
+            <td>124</td>
+            <td>126</td>
+            <td>127</td>
+            <td>128</td>
+            <td>129</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>12</td>
+            <td>123</td>
+            <td>124</td>
+            <td>126</td>
+            <td>127</td>
+            <td>128</td>
+            <td>129</td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr>
+            <th></th>
+            <th scope="col">Saturday</th>
+            <th scope="col">Sunday</th>
+        </tr>
+        <tr>
+            <th scope="row">Tickets sold:</th>
+            <td>120</td>
+            <td>135</td>
+        </tr>
+        <tr>
+            <th scope="row">Total sales:</th>
+            <td>$600</td>
+            <td>$675</td>
+        </tr>
+    </table>
+    
+    <table align="right"
+           border="2" bgcolor="#efefef" >
+        <thead border="1" bgcolor="#fffff">
+            <tr>
+                <th>Colum 1</th>
+                <th>Colum 2</th>
+                <th>Colum 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>stuff1</th>
+                 <td>35</td>
+                 <td>34</td>
+            </tr>
+            <tr>
+                <th>stuff2</th>
+                <td>25</td>
+                <td>24</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>908</td>
+                <td>809</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+    <!--username, Password and Comments-->
+    <form action="http://www.example.com/subscribe.php"
+method="get" align="right">
+        <p>Username:
+            <input type="text" name="username" size="15" maxlength="30" /> 
+        </p>
+        <p>Password:
+            <input type="password" name="password" size="15" maxlength="30" />
+        </p>
+        <p>What did you think of this gig?</p>
+        <textarea name="comments" cols="20" rows="4"> Enter your comments...,</textarea>
+    </form>
+    
+    <!--Genre Selection-->
+    <form  align="Center" action="http://www.example.com/subscribe.php"> 
+        <p>Please slect your favorite genre:
+            <br />
+            <input type="radio" name="genre" value="Rock" /> Rock
+            <input type="radio" name="genre" value="pop" /> Pop
+            <input type="radio" name="genre" value="Jazz" /> Jazz
+        </p>
+    </form>
+    
+    <!--Candy bar Select-->
+    <form action="http://www.example.com/subscribe.php">
+        <p> What is the best candy bar(s)?:
+            <br />
+            <input type="checkbox" name="service" value="Butterfinger" checked="checked" /> <font color="orange"> Butterfinger </font>
+            <input type="checkbox" name="service" value="Reese's" /> <font color="red"> Reese's </font>
+            <input type="checkbox" name="service" value="Hershey" /> <font color="brown"> Hershey </font>
+            <input type="checkbox" name="service" value="Twix" /> <font color="Tan"> Twix </font>
+        </p>
+    </form>
+    
+   <!--Multi Selection--> 
+<form action="http://www.example.com/profile.php">
+        <p>What device do you listen to music on?</p>
+        <select name="devices">
+            <option value="ipod">iPod</option>
+            <option value="radio">Radio</option>
+            <option value="computer">Computer</option>
+        </select>
+    </form>
+    <form action="http://www.example.com/profile.php">
+        <p>Do you play any of the following instruments?
+        (You can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)</p>
+        <select name="instruments" size="3"
+        multiple="multiple">
+            <option value="guitar" selected="selected">
+            Guitar</option>
+            <option value="drums">Drums</option>
+            <option value="keyboard" selected="selected">Keyboard</option>
+            <option value="bass">Bass</option>
+        </select>
+    </form>
+    <form   action="http://www.example.com/upload.php"
+    method="post">
+        <p><font size="7">Please give me any episodes of The Office:</font></p>
+        <input type="file" name="user-Office" /><br />
+        <input type="submit" value="Upload" />
+</form>
+    
+    <!--subcribe button-->
+<form action="http://www.example.com/subscribe.php">
+    <p>Subscribe to our email list:</p>
+    <input type="text" name="email" />
+    <input type="submit" name="subscribe"
+    value="Subscribe" />
+</form>
+    
+    <!--subcribe button-->
+    <!--HTML5 photo-->
+<form action="https://www.youtube.com">
+    <p>Subscribe to our email list:</p>
+    <input type="text" name="email" />
+    <input type="image" src="images/subscribe.jpg"
+    width="100" height="20" />
+</form>
+
+    <!--Age and Gender selection-->
+<label> Age: <input type="text" name="age" /></label>
+   <br />
+    Gender:
+    <input id="female" type="radio" name="gender" value="f">
+    <label for="female">Female</label>
+    <input id="male" type="radio" name="gender"
+           value="m">
+    <label for="male"> Male</label>
+    
+<fieldset>
+    <legend>Contact details</legend>
+    <label>Email:<br />
+        <input type="text" name="email" /></label><br />
+    <label>Mobile:<br />
+        <input type="text" name="mobile" /></label><br />
+    <label>Telephone:<br />
+        <input type="text" name="telephone" /></label>
+</fieldset>
+    
+<!-- start of introduction -->
+<h1>Current Exhibitions</h1>
+<h2>Olafur Eliasson</h2>
+<!-- end of introduction -->
+<!-- start of main text -->
+<p>Olafur Eliasson was born in Copenhagen, Denmark
+ in 1967 to Icelandic parents.</p>
+<p>He is known for sculptures and large-scale
+ installation art employing elemental materials
+ such as light, water, and air temperature to
+ enhance the viewer's experience.</p>
+<!-- end of main text -->
+<!--
+<a href="mailto:info@example.org">Contact</a>
+-->
+    <!--how to do pullquotes But NEED CSS-->
+<p>Water and air. So very commonplace are these
+ substances, they hardly attract attention - and
+ yet they vouchsafe our very existence.</p>
+<p id="pullquote">Every time I view the sea I feel
+ a calming sense of security, as if visiting my
+ ancestral home; I embark on a voyage of seeing.
+</p>
+<p>Mystery of mysteries, water and air are right
+ there before us in the sea.</p>
+    
+
+    
+
+    
+</html>
